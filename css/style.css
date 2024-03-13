@@ -14,6 +14,10 @@ img {
     height: 300px;
 }
 
+section {
+    padding: 30px 0;
+}
+
 /* header */
 
 header {
@@ -41,3 +45,18 @@ header {
     background-color: #1abc9c;
 }
 
+/* footer */
+
+/* upper footer */
+
+.ms_upper_footer {
+    background-color: #3a546d;
+}
+
+/* lower footer */
+
+.ms_lower_footer {
+    background-color: #2c3e50;
+    /* debug */
+    height: 100px;
+}
