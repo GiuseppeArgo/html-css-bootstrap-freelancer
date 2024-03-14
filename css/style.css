@@ -131,6 +131,13 @@ header {
     }
 }
 
+/* form section */
+
+.ms_form-section button {
+    background-color: #1abc9c;
+    color: white;
+}
+
 /* footer */
 
 /* upper footer */

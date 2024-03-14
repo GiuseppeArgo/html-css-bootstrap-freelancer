@@ -63,7 +63,7 @@
         <!-- portfolio section -->
         <section>
             <div class="container">
-                <h2 class="text-center">PORTFOLIO</h2>
+                <h2 class="text-center ms_text-black">PORTFOLIO</h2>
                 <div class="d-flex ms_star">
                     <div class="ms_line ms_bg-black"></div>
                     <i><i class="bi bi-star-fill ms_star-icon ms_text-black"></i></i>
@@ -128,13 +128,32 @@
         </section>
 
         <!-- form section -->
-        <section>
+        <section class="ms_form-section">
             <div class="ms_container text-center">
-                <h2>CONTACT ME</h2>
+                <h2 class="ms_text-black">CONTACT ME</h2>
+                <div class="d-flex ms_star">
+                    <div class="ms_line ms_bg-black"></div>
+                    <i><i class="bi bi-star-fill ms_star-icon ms_text-black"></i></i>
+                    <div class="ms_line ms_bg-black"></div>
+                </div>
                 <div class="container text-start">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste voluptatibus veritatis fugiat totam itaque, repellat vitae quam assumenda dolor? Aperiam eos saepe tempora voluptatibus nobis. Asperiores cum magni neque corrupti.
-                    Doloribus magnam provident sunt iusto quam ullam rerum, praesentium culpa quis, impedit eaque itaque facere ipsum totam a dolorem illo! Rerum rem necessitatibus facere amet alias? Cum sunt dolore nulla?</p>
-                    <button>SEND</button>
+                    <form>
+                        <div class="form-floating mb-3">
+                            <input type="text" class="form-control" id="floatingName" placeholder="Name">
+                            <label for="floatingName">Name</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                            <label for="floatingInput">Email address</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input type="number" class="form-control" id="floatingNumber" placeholder="Your Number">
+                            <label for="floatingNumber">Number</label>
+                        </div>
+                        <label for="floatingTextArea">Message</label>
+                        <textarea class="form-control form-floating mb-3 mt-2" id="floatingTextArea" rows="3"></textarea>
+                        <button type="submit" class="btn btn-dark">Submit</button>
+                    </form>
                 </div>
             </div>
         </section>
