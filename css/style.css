@@ -111,8 +111,24 @@ header {
 
 /* about section*/
 
-.ms_about_section {
+.ms_about-section {
     background-color: #1abc9c;
+}
+
+.ms_about-section p {
+    font-size: 1.2rem;
+}
+
+.ms_about-section button {
+    padding: 10px 15px;
+    margin: 20px 0;
+}
+
+@media screen and (min-width: 768px) {
+    .ms_about-section h2 {
+        padding: 10px 0;
+        font-size: 2.5rem;
+    }
 }
 
 /* footer */
