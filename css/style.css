@@ -24,6 +24,22 @@ section {
     color: white;
 }
 
+.ms_star {
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.ms_star-icon {
+    font-size: 2rem;
+    padding: 0 10px;
+}
+
+.ms_line {
+    width: 15%;
+    height: 5px;
+    background-color: white;
+    margin-top: 20px;
+}
 
 /* header */
 
@@ -35,7 +51,7 @@ header {
 
 .navbar a {
     color: white;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
 
 .navbar-nav a {
@@ -46,8 +62,28 @@ header {
 
 .ms_hero {
     background-color: #1abc9c;
-    /* debug */
-    height: 400px;
+}
+
+.ms_avatar-img {
+    width: 200px;
+}
+
+.ms_hero h2 {
+    padding: 10px 0;
+    font-size: 2rem;
+}
+
+.ms_hero h3 {
+    padding: 10px 0;
+    font-size: 1.3rem;
+}
+
+@media screen and (min-width: 768px) {
+
+    .ms_hero h3 {
+        font-size: 1.4rem;
+    }
+    
 }
 
 /* portfolio section */
